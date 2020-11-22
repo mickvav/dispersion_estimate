@@ -1,4 +1,4 @@
-# Simple dispersion estimationo experiment
+# Simple dispersion estimation experiment
 
 Context:
 Article
@@ -13,7 +13,7 @@ A total of 3030 participants were randomly assigned to the recommendation to wea
 
 The question is: what is the probability, that this 0.3% of difference between the values is caused by random effects?
 
-How to answer this question? Let's do some numeric expperiments.
+How to answer this question? Let's do some numeric experiments.
 
 Setup:
 
@@ -41,4 +41,13 @@ python3 testrand.py
 
 Conclusion:
 
-Probability that the observed results are caused by random reasons under 0-hypothesis is ~15%. Under 1-hypothesis - 42%.
+Probability that the observed results are caused by random reasons under 0-hypothesis is ~15%. Under 1-hypothesis ~42%.
+
+Author withdraws from the discussion on if the above numbers are sufficient to guide any regulatory decisions.
+
+Possible biases:
+
+Author did not test quality of python random module, nor did he tested any other sources of random numbers. 
+Readers are welcome to contribute patches. 
+Code is distributed under the terms of GPLv3 liecense, as published by Free Software Foundation.
+
